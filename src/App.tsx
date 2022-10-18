@@ -29,20 +29,22 @@ function App() {
       </header>
       <div className="w-full bg-tc-orange-gradient py-4">
         <div className="w-full bg-tc-orange-gradient2 py-4">
-          <div className="w-full bg-slate-300 py-4">
-            <div className="max-w-[1344px] flex flex-row justify-around items-center">
+          <div className="w-full bg-slate-300 py-4 flex justify-around">
 
-            <div className="w-60 h-60 bg-white">
+            <div className="max-w-[1344px] w-full flex flex-row justify-around items-center">
+
+                <div className="w-60 h-60 bg-white">
+                </div>
+
+                <h1 className="w-96 text-lg leading-none text-black font-normal">
+                  Sou designer, arte-finalista e desenvolvedor front-end com mais de 4 anos 
+                  de experiência, formado em Análise e Desenvolvimento de Sistemas, desenvolvo 
+                  Sites, Lojas Virtuais e Landing pages que auxiliam empresas a alcançarem 
+                  seus objetivos através do mundo digital.
+                </h1>
+
             </div>
 
-            <h1 className="w-150 text-base leading-none text-black font-normal">
-              Sou designer, arte-finalista e desenvolvedor front-end com mais de 4 anos 
-              de experiência, formado em Análise e Desenvolvimento de Sistemas, desenvolvo 
-              Sites, Lojas Virtuais e Landing pages que auxiliam empresas a alcançarem 
-              seus objetivos através do mundo digital.
-            </h1>
-
-            </div>
           </div>
         </div>
       </div>
