@@ -1,10 +1,13 @@
 import './styles/main.css';
 import './styles/styles.css';
 
+import avatar from './assets/image-homepage-profile.png'
+import headerImage from './assets/header-image.svg'
+
 function App() {
   return (
     <div className="mx-auto flex flex-col items-center">
-      <header className="max-w-[1344px] w-full">
+      <header className="max-w-[1200px] w-full">
 
         <nav className="w-full h-12 bg-white">
         </nav>
@@ -20,8 +23,7 @@ function App() {
             negócio precisa!
           </h1>
 
-          <div className="w-60 h-60 bg-white">
-          </div>
+          <img src={headerImage} alt="" />
 
         </div>
 
@@ -29,19 +31,22 @@ function App() {
       </header>
       <div className="w-full bg-tc-orange-gradient py-4">
         <div className="w-full bg-tc-orange-gradient2 py-4">
-          <div className="w-full bg-slate-300 py-4 flex justify-around">
+          <div className="w-full bg-slate-100 py-4 flex justify-around">
 
-            <div className="max-w-[1344px] w-full flex flex-row justify-around items-center">
+            <div className="max-w-[1200px] w-full flex flex-row justify-around items-center">
 
-                <div className="w-60 h-60 bg-white">
+                <img src={avatar} className="w-80" alt="" />
+                
+                <div className="w-96">
+                  <h2 className="text-2xl font-bold">Quem sou eu?</h2>
+
+                  <p className="w-96 text-lg leading-none text-black font-normal">
+                    Sou designer, arte-finalista e desenvolvedor front-end com mais de 4 anos 
+                    de experiência, formado em Análise e Desenvolvimento de Sistemas, desenvolvo 
+                    Sites, Lojas Virtuais e Landing pages que auxiliam empresas a alcançarem 
+                    seus objetivos através do mundo digital.
+                  </p>
                 </div>
-
-                <h1 className="w-96 text-lg leading-none text-black font-normal">
-                  Sou designer, arte-finalista e desenvolvedor front-end com mais de 4 anos 
-                  de experiência, formado em Análise e Desenvolvimento de Sistemas, desenvolvo 
-                  Sites, Lojas Virtuais e Landing pages que auxiliam empresas a alcançarem 
-                  seus objetivos através do mundo digital.
-                </h1>
 
             </div>
 
